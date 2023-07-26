@@ -1,14 +1,61 @@
 import React from "react";
+import { useState } from "react";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { BiBook } from "react-icons/bi";
+import { AiOutlineStar } from "react-icons/ai";
+import { BiMessageSquareDetail } from "react-icons/bi";
 import "./nav.css";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#">home</a>
-      <a href="#about">about</a>
-      <a href="#experience">exp</a>
-      <a href="#portfolio">port</a>
-      <a href="#contact">conatct</a>
+      <a
+        href="#"
+        onClick={() => {
+          setActiveNav("#");
+        }}
+        className={activeNav === "#" ? "active" : ""}
+      >
+        <AiOutlineHome />
+      </a>
+      <a
+        href="#about"
+        onClick={() => {
+          setActiveNav("#about");
+        }}
+        className={activeNav === "#about" ? "active" : ""}
+      >
+        <AiOutlineUser />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => {
+          setActiveNav("#experience");
+        }}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
+        <BiBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => {
+          setActiveNav("#portfolio");
+        }}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <AiOutlineStar />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => {
+          setActiveNav("#contact");
+        }}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
+        <BiMessageSquareDetail />
+      </a>
     </nav>
   );
 };
