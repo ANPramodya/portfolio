@@ -3,9 +3,13 @@ import "./nav.css";
 
 const Nav = () => {
   return (
-    <section>
-      <div>Nav</div>
-    </section>
+    <nav>
+      <a href="#">home</a>
+      <a href="#about">about</a>
+      <a href="#experience">exp</a>
+      <a href="#portfolio">port</a>
+      <a href="#contact">conatct</a>
+    </nav>
   );
 };
 

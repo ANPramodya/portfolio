@@ -11,13 +11,14 @@
 }
 /* 08080D 9DA9CE 4F4346 F86D09 EFA649 A35623 BCBABC */
 :root {
-  --color-bg: #08080d;
-  --color-secondary-font: #9da9ce;
+  --color-bg-primary: #303446;
+  --color-bg-secondary: #1f222f;
   --color-two: #4f4346;
   --color-three: #f86d09;
   --color-four: #efa649;
   --color-five: #a35623;
   --color-six: #bcbabc;
+  --color-white: #ffffff;
 }
 
 html {
@@ -30,8 +31,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
-  color: var(--color-six);
+  background: var(--color-bg-primary);
+  color: var(--color-white);
 }
 
 section {
