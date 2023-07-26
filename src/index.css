@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/* 08080D 9DA9CE 4F4346 F86D09 EFA649 A35623 BCBABC */
+:root {
+  --color-bg: #08080d;
+  --color-primary: #9da9ce;
+  --color-two: #4f4346;
+  --color-three: #f86d09;
+  --color-four: #efa649;
+  --color-five: #a35623;
+  --color-six: #bcbabc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--color-bg);
+}
