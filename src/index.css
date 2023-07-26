@@ -12,7 +12,7 @@
 /* 08080D 9DA9CE 4F4346 F86D09 EFA649 A35623 BCBABC */
 :root {
   --color-bg: #08080d;
-  --color-primary: #9da9ce;
+  --color-secondary-font: #9da9ce;
   --color-two: #4f4346;
   --color-three: #f86d09;
   --color-four: #efa649;
@@ -29,5 +29,11 @@ html {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
+  color: var(--color-six);
+}
+
+section {
+  height: 100vh;
 }
