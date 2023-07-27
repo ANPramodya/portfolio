@@ -19,6 +19,7 @@
   --color-five: #a35623;
   --color-six: #bcbabc;
   --color-white: #ffffff;
+  --transition: all 400ms ease;
 }
 
 html {
@@ -37,6 +38,7 @@ body {
 
 section {
   height: 100vh;
+  padding-top: 2rem;
 }
 
 a {
