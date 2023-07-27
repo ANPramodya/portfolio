@@ -37,8 +37,10 @@ body {
 }
 
 section {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 2rem;
+  padding-bottom: 5rem;
+  padding: 2rem 1rem;
 }
 
 a {
