@@ -47,7 +47,12 @@ const Contact = () => {
           <form action="" className="contact-formInputs">
             <input type="text" placeholder="Your Name" />
             <input type="text" placeholder="Your Email" />
-            <input type="text" placeholder="Your Content" />
+            <textarea
+              name="message"
+              cols="30"
+              rows="15"
+              placeholder="Your Content"
+            ></textarea>
             <button>Send</button>
           </form>
         </div>

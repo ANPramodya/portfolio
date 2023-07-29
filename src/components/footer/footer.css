@@ -1,3 +1,38 @@
 #footer {
-  background: var();
+  background: var(--color-five);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 7rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-icons a {
+  display: flex;
+  padding: 1rem;
+  background: var(--color-bg-primary);
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  transition: var(--transition);
+  border: 1px solid transparent;
+}
+
+.footer-icons a:hover {
+  background: var(--color-five);
+  border: 1px solid var(--color-bg-primary);
 }
